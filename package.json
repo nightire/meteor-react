@@ -22,7 +22,8 @@
   "homepage": "https://github.com/nightire/meteor-react#readme",
   "dependencies": {
     "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "react-mounter": "^1.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0",

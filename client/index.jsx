@@ -1,10 +1,11 @@
 import React from 'react';
-import { render } from 'react-dom';
-import { Welcome } from '../imports/Welcome.jsx';
+import {mount} from 'react-mounter';
+import {Layout, Welcome} from '../imports/Application.jsx';
 
-Meteor.startup(() => {
-  render(
-    <Welcome name="nightire" />,
-    document.querySelector('[role="application"]')
-  );
+FlowRouter.route('/', {
+  action() {
+    mount(Layout, {
+      content: (<Welcome name="nightire" />),
+    });
+  },
 });
