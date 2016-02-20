@@ -1,0 +1,22 @@
+{
+  "name": "meteor-react",
+  "version": "1.0.0",
+  "description": "A demo project that combines Meteor and React together.",
+  "main": "./client/index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nightire/meteor-react.git"
+  },
+  "keywords": [
+    "cform"
+  ],
+  "author": "余凡 <albert@cform.io> (https://cform.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nightire/meteor-react/issues"
+  },
+  "homepage": "https://github.com/nightire/meteor-react#readme"
+}
