@@ -17,6 +17,6 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 insecure                # Allow all DB writes from clients (for prototyping)
 static-html
-kadira:flow-router
 kadira:dochead
 check
+kadira:flow-router-ssr
