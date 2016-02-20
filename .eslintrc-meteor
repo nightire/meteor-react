@@ -1,0 +1,15 @@
+# Meteor ES2015 语法检查配置文件
+---
+parser: "babel-eslint"
+parserOptions:
+  sourceType: "module"
+  ecmaVersion: 6
+  ecmaFeatures:
+    jsx: true
+env:
+  browser: true
+  meteor: true
+  node: true
+rules:
+  indent: [1, 2]        # http://eslint.org/docs/rules/indent
+  semi: [1, "always"]   # http://eslint.org/docs/rules/semi

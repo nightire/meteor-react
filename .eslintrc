@@ -1,0 +1,5 @@
+---
+extends:
+  - ".eslintrc-meteor"
+plugins:
+  - "react"
