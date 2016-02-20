@@ -19,3 +19,4 @@ insecure                # Allow all DB writes from clients (for prototyping)
 static-html
 kadira:flow-router
 kadira:dochead
+check
