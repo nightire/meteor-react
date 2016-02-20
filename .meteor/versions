@@ -8,6 +8,8 @@ binary-heap@1.0.5-beta.11
 blaze@2.1.4-beta.11
 blaze-tools@1.0.5-beta.11
 boilerplate-generator@1.0.5-beta.11
+caching-compiler@1.0.1-beta.11
+caching-html-compiler@1.0.3-beta.11
 callback-hook@1.0.5-beta.11
 check@1.1.1-beta.11
 ddp@1.2.2
@@ -61,6 +63,8 @@ spacebars-compiler@1.0.8-beta.11
 standard-minifier-css@1.0.3-beta.11
 standard-minifier-js@1.0.3-beta.11
 standard-minifiers@1.0.3-beta.11
+static-html@1.0.4-beta.11
+templating-tools@1.0.1-beta.11
 tracker@1.0.10-beta.11
 ui@1.0.8
 underscore@1.0.5-beta.11
