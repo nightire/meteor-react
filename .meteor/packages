@@ -20,3 +20,4 @@ static-html
 kadira:dochead
 check
 kadira:flow-router-ssr
+meteorhacks:subs-manager
