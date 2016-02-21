@@ -19,5 +19,5 @@ insecure                # Allow all DB writes from clients (for prototyping)
 static-html
 kadira:dochead
 check
-kadira:flow-router-ssr
 meteorhacks:subs-manager
+kadira:flow-router

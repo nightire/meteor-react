@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlowRouter} from 'meteor/kadira:flow-router-ssr';
+// import {FlowRouter} from 'meteor/kadira:flow-router-ssr';
 export * from './PostShowWarning.jsx';
 
 export const PostShow = ({post}) => (

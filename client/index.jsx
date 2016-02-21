@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlowRouter} from 'meteor/kadira:flow-router-ssr';
+// import {FlowRouter} from 'meteor/kadira:flow-router-ssr';
 import {mount, withOptions} from 'react-mounter';
 
 import StaticLayout from '../imports/layouts/StaticLayout.jsx';
@@ -12,11 +12,14 @@ const mounter = withOptions({
   rootProps: {className: 'react-root'},
 }, mount);
 
+const locale = /*navigator.language*/ 'en';
+
 FlowRouter.route('/', {
   name: 'home',
   action() {
     mounter(StaticLayout, {
-      content: <PostList />,
+      locale,
+      content: () => <PostList />,
     });
   },
 });
@@ -25,7 +28,8 @@ FlowRouter.route('/post/:_id', {
   name: 'post',
   action(params) {
     mounter(StaticLayout, {
-      content: <PostShow _id={params._id} />,
+      locale,
+      content: () => <PostShow _id={params._id} />,
     });
   },
 });

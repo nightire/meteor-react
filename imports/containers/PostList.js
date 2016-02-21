@@ -1,6 +1,6 @@
 import {composeWithTracker} from 'react-komposer';
 import subsManager from './subs-manager.js';
-import {PostList, PostListLoading} from '../components/PostList/index.jsx';
+import PostList, {PostListLoading} from '../components/PostList/index.jsx';
 import {DocHead} from 'meteor/kadira:dochead';
 
 const composer = (props, onData) => {
