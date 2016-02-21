@@ -193,6 +193,11 @@ npm install react-komposer --save
 ## Misc
 ## 杂项
 
+### Editor Config
+
+Automatically detect and setup editor specific configurations.
+自动检测和设置编辑器相关的配置。
+
 ### Dynamic Page Title
 ### 动态页面标题
 
