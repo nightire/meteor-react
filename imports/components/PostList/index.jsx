@@ -1,4 +1,5 @@
 import React from 'react';
+import {FlowRouter} from 'meteor/kadira:flow-router-ssr';
 export * from './PostListLoading.jsx';
 
 export const PostList = ({posts}) => (

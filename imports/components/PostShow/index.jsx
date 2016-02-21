@@ -1,9 +1,10 @@
 import React from 'react';
+import {FlowRouter} from 'meteor/kadira:flow-router-ssr';
 export * from './PostShowWarning.jsx';
 
 export const PostShow = ({post}) => (
   <article>
-    <a href={FlowRouter.path('/')}>
+    <a href={FlowRouter.path('home')}>
       返回列表
     </a>
 
