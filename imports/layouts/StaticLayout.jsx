@@ -1,6 +1,10 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 
-const StaticLayout = ({content}) => (
+// just like FastClick.
+injectTapEventPlugin();
+
+export default StaticLayout = ({content}) => (
   <div className="container">
     <nav className="navigation">
       <a href="/">首页</a>
@@ -16,4 +20,8 @@ const StaticLayout = ({content}) => (
   </div>
 );
 
-export default StaticLayout;
+StaticLayout.propTypes = {
+  content: PropTypes.object.isRequired,
+};
+
+StaticLayout.displayName = 'Application';

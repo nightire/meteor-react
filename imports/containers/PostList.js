@@ -8,6 +8,7 @@ const composer = (props, onData) => {
   if (handler.ready()) {
     const posts = Posts.find({}, {sort: {_id: 1}}).fetch();
     onData(null, {posts});
+    // onData(null, null);
   }
 
   DocHead.setTitle('Meteor with React');
