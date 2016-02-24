@@ -8,6 +8,7 @@ export default StaticLayout = ({locale, content}) => (
     <div className="container">
       <nav className="navigation">
         <a href={FlowRouter.path('home')}>首页</a>
+        <a href={FlowRouter.path('blog')}>博客</a>
       </nav>
 
       <main role="application">
