@@ -3,9 +3,11 @@ import React from 'react';
 import {mount, withOptions} from 'react-mounter';
 
 import StaticLayout from '../imports/layouts/StaticLayout.jsx';
-import Demo from '../imports/components/Demo/index.jsx';
 import PostList from '../imports/containers/PostList.js';
 import PostShow from '../imports/containers/PostShow.js';
+
+import Demo from '../imports/components/Demo/index.jsx';
+import People from '../imports/components/Demo/People.jsx';
 
 import googleAnalytics from '../imports/services/google-analytics.js';
 
@@ -22,6 +24,16 @@ FlowRouter.route('/', {
     mounter(StaticLayout, {
       locale,
       content: () => <Demo />,
+    });
+  },
+});
+
+FlowRouter.route('/demo/container', {
+  name: 'demo-container',
+  action() {
+    mounter(StaticLayout, {
+      locale,
+      content: () => <People />,
     });
   },
 });

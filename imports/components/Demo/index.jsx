@@ -25,6 +25,8 @@ export default class Home extends Component {
         <h1>Welcome to Meteor with React & Redux</h1>
         <hr />
         <AddOneButton />
+        <hr />
+        <a href={FlowRouter.path('demo-container')}>Using Container</a>
       </section>
     );
   }
