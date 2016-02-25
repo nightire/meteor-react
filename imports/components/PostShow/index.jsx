@@ -4,7 +4,7 @@ export * from './PostShowWarning.jsx';
 
 export const PostShow = ({post}) => (
   <article>
-    <a href={FlowRouter.path('home')}>
+    <a href={FlowRouter.path('blog')}>
       返回列表
     </a>
 

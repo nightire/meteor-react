@@ -28,7 +28,7 @@ FlowRouter.route('/', {
 
 FlowRouter.route('/blog', {
   name: 'blog',
-  action(params) {
+  action() {
     mounter(StaticLayout, {
       locale,
       content: () => <PostList />,

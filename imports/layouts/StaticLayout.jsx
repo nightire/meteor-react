@@ -3,7 +3,7 @@ import React, {Component, PropTypes} from 'react';
 import {IntlProvider} from 'react-intl';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
-export default StaticLayout = ({locale, content}) => (
+const StaticLayout = ({locale, content}) => (
   <IntlProvider locale={locale}>
     <div className="container">
       <nav className="navigation">
@@ -27,6 +27,8 @@ StaticLayout.propTypes = {
 };
 
 StaticLayout.displayName = 'Application';
+
+export default StaticLayout;
 
 // just like FastClick.
 injectTapEventPlugin();

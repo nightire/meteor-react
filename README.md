@@ -72,7 +72,7 @@ npm install react-mounter --save
 
 [ReactMounter on Github](https://github.com/kadirahq/react-mounter)
 
-#### Advanced Routing Tenichques
+#### Advanced Routing Techniques
 #### 高级路由技巧
 
 （高级 URLs 模式匹配）For advanced pattern matching in FlowRouter, see related [documentation of PathToRegexp package](https://github.com/component/path-to-regexp#usage).
@@ -149,7 +149,7 @@ npm install react-komposer --save
 #### ...But, we need to support mixin with React, right?
 #### ...可是，咱得让 React 支持 mixin，不是吗？
 
-（恐怕是的）Unfortunatelly yes, here’s a [solution](https://github.com/brigand/react-mixin).
+（恐怕是的）Unfortunately yes, here’s a [solution](https://github.com/brigand/react-mixin).
 
 
 > **What’s wrong with mixins?**
@@ -171,11 +171,11 @@ npm install react-komposer --save
 ### 语言标签
 
 - `zh` - Chinese
-- `zh-Hans` - Chinese written using the Simplefied Chinese script
+- `zh-Hans` - Chinese written using the Simplified Chinese script
 - `zh-Hant` - Chinese written using the Traditional Chinese script
-- `zh-Hans-CN` - Chinese written using the Simplefied script as used in mainland of China
+- `zh-Hans-CN` - Chinese written using the Simplified script as used in mainland of China
 - `zh-Hant-TW` - Chinese written using the Traditional script as used in Taiwan
-- `zh-cmn-Hans-CN` - Chinese, Mandarin, Simplefied script, used in mainland of China
+- `zh-cmn-Hans-CN` - Chinese, Mandarin, Simplified script, used in mainland of China
 - `zh-yue-Hant-HK` - Chinese, Cantonese, Traditional script, used in Hong Kong
 
 [See more examples and standards (BCP47)](http://tools.ietf.org/html/bcp47)
@@ -238,4 +238,4 @@ Automatically detect and setup editor specific configurations.
     });
     ```
 
-4. Unfortunatelly, there're some limitations still. For further information [please read the doc](https://react-in-meteor.readthedocs.org/en/latest/react-template-helper/).
+4. Unfortunately, there're some limitations still. For further information [please read the doc](https://react-in-meteor.readthedocs.org/en/latest/react-template-helper/).
