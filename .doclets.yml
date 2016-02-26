@@ -1,0 +1,6 @@
+dir: imports
+packageJson: package.json
+articles:
+  - Readme: README.md
+branches:
+  - newschool
