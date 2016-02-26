@@ -211,6 +211,9 @@ Automatically detect and setup editor specific configurations.
 ### React can work with Blaze
 ### React 与 Blaze 混用
 
+### Automaticaly API Documentation
+### 自动化 API 文档
+
 1. A package is needed:
 
     `meteor add react-template-helper`
