@@ -11,13 +11,13 @@ const StaticLayout = ({locale, content}) => (
         <a href={FlowRouter.path('blog')}>博客</a>
       </nav>
 
-      <main role="application">
-        <header>
-          <h1>Meteor with React!</h1>
-        </header>
+        <main role="application">
+          <header>
+            <h1>Meteor with React!</h1>
+          </header>
 
-        <div>{content(locale)}</div>
-      </main>
+          <div>{content(locale)}</div>
+        </main>
     </div>
   </IntlProvider>
 );

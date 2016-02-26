@@ -7,6 +7,7 @@ import PostList from '../imports/containers/PostList.js';
 import PostShow from '../imports/containers/PostShow.js';
 
 import Demo from '../imports/components/Demo/index.jsx';
+import HigherOrder from '../imports/components/Demo/HigherOrder.jsx';
 import People from '../imports/components/Demo/People.jsx';
 
 import googleAnalytics from '../imports/services/google-analytics.js';
@@ -24,6 +25,16 @@ FlowRouter.route('/', {
     mounter(StaticLayout, {
       locale,
       content: () => <Demo />,
+    });
+  },
+});
+
+FlowRouter.route('/demo/higher-order', {
+  name: 'demo-higher-order',
+  action() {
+    mounter(StaticLayout, {
+      locale,
+      content: () => <HigherOrder />,
     });
   },
 });
