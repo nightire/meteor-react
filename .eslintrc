@@ -1,5 +1,14 @@
 ---
 extends:
+  - "eslint:recommended"
+  - "plugin:react/recommended"
   - ".eslintrc-meteor"
 plugins:
   - "react"
+rules:
+  comma-dangle: [2, "always-multiline"]   # http://eslint.org/docs/rules/comma-dangle
+  no-console: 1                           # http://eslint.org/docs/rules/no-console
+  indent: [1, 2]                          # http://eslint.org/docs/rules/indent
+  semi: [1, "always"]                     # http://eslint.org/docs/rules/semi
+  react/display-name: [0]                 # https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
+  react/prop-types: [1]                   # https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md

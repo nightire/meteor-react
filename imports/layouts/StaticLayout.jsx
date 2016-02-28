@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} from 'react';
+import React, {PropTypes} from 'react';
 // import {FlowRouter} from 'meteor/kadira:flow-router-ssr';
 import {IntlProvider} from 'react-intl';
 import injectTapEventPlugin from 'react-tap-event-plugin';
